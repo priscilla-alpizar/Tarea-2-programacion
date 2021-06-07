@@ -9,26 +9,59 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<header>    
-    
-    <img src="tipos-de-redes-sociales.jpg" alt="tipos-de-redes-sociales">
-    <h4>HTML | CSS | JavaScript</h4>
-</header>
+
+
 
 <body>
-    <h4>Mi primer pagina web</h4>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis veritatis eius quidem, dicta voluptate voluptatibus exercitationem. Mollitia eum nemo debitis expedita ipsum atque adipisci, provident est neque explicabo aut.</p>
- <h5>Lista de algunas redes sociales</h5>
-    <ul style="list-style-type: none;">  
-        
-       <li><i class="fab fa-facebook"> Facebook</i> </li> 
-       <li><i class="fab fa-instagram-square"> Instagram</i></li>
-       <li><i class="fab fa-twitter"> Twitter</i></li>
-       <li><i class="fab fa-linkedin"> LinkedIn</i> </ul></li>
-        
-        
+    <header>    
+        <img src="tipos-de-redes-sociales.jpg" alt="tipos-de-redes-sociales">
+        <nav>
+            <a href="#">HTML</a> |
+            <a href="#">CSS</a> |
+            <a href="#">JavaScript</a>
+        </nav>
+    </header>
+    <Main>
+        <h1>Mi primer pagina web</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi facilis veritatis eius quidem, dicta voluptate voluptatibus exercitationem. Mollitia eum nemo debitis expedita ipsum atque adipisci, provident est neque explicabo aut.</p>
+        <h3>Lista de algunas redes sociales</h3>
+        <ul>          
+            <li>
+                <i class="fab fa-facebook"></i> 
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            </li> 
+            <li>
+                <i class="fab fa-instagram-square"></i>
+                <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </li>   
+            <li>
+                <i class="fab fa-twitter"></i>
+                <a href="https://www.twitter.com/" target="_blank">Twitter</a
+            ></li>
+            <li>
+                <i class="fab fa-linkedin"></i> 
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </li>
+        </ul>
+
+        <button> Mostrar operaciones</button>
+        <div id="operacionesContenedor">
+            <label for="myNumber1">Numero 1:</label>
+            <input type="number" id="myNumber1">
+            <label for="myNumber2">Numero 2:</label>
+            <input type="number" id="myNumber2">
+            <div> class="operaciones"
+                <button>Sumar</button>
+                <button>Restar</button>
+                <button>Multiplicar</button>
+            </div>
+            <p> id="result"</p>
+        </div>
+    </Main>     
+       
+    <footer> 
+       <small>Creada por Priscilla Alpizar - 2021</small> 
+
+    </footer>
 </body>
 </html>
-<footer> <h6>Creada por Priscilla Alpizar - 2021</h6>
-
-</footer>
